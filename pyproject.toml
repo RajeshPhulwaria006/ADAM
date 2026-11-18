@@ -1,0 +1,22 @@
+[project]
+name = "adam"
+version = "0.1.0"
+description = "ADAM - Artificially Design Autonomous Mind"
+readme = "README.md"
+authors = [
+    { name = "RajeshPhulwaria006", email = "phulwariarajesh152@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "numpy>=2.5.5",
+    "pytest>=9.2.0",
+    "torch>=2.15.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.13.8,<0.14.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "adam"
+module-root = "src"

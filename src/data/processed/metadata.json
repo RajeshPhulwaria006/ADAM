@@ -1,0 +1,11 @@
+{
+  "source_url": "https://raw.githubusercontent.com/karpathy/char-rnn/master/data/tinyshakespeare/input.txt",
+  "raw_sha256": "86c4e6aa9db7c042ec79f339dcb96d42b0075e16b8fc2e86bf0ca57e2dc565ed",
+  "total_characters": 1115394,
+  "train_characters": 1003854,
+  "validation_characters": 111540,
+  "vocab_size": 65,
+  "train_fraction": 0.9,
+  "split_method": "sequential",
+  "encoding": "uint16 token IDs"
+}
